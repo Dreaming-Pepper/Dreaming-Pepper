@@ -1,0 +1,11 @@
+header{
+    border-width: 10xp;
+    border-color: aqua;
+}
+body{
+    border-width: 10xp;
+    border-color: bisque;
+}
+p{
+    background-color: burlywood;
+}
