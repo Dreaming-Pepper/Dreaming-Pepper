@@ -7,27 +7,44 @@
     <link rel="icon" href="img/Launchpad.ico">
     <!-- <link rel="stylesheet" href="src/stylesheet.css"> -->
     <style>
-        body {
-            background-image: url("img/Background.png");
-            background-repeat: repeat;
-        }
-        #Panel {
-            background-color:whitesmoke;
-            border-radius: 15px;
+        * {
             padding: 0px;
             margin: 0px;
-            border-width: 0px;
-            margin-left: 25%;
-            padding-bottom: 0px;
-            float:left;
-        }   
+        }
+        html {
+            width: 100%;
+        }
+        body {
+            width: 100%;
+            background-image: linear-gradient(30deg,cyan,rgb(255, 110, 248));
+        }
+        #TopPanel {
+            width: 100%;
+            padding-bottom:5%;
+        }
+        #BottomPanel {
+            width: 100%;
+            padding-top:5%;
+        }
+        #Panel {
+            width: 60%;
+            margin-left: 20%;
+            background-color: bisque;
+        }
+        #Content {
+            width: 100px;
+            height: 2000px;
+            background-color: blue;
+        }
     </style>
 </head>
 <body>
+    <div id="TopPanel"></div>
     <div id="Panel">
-        <h1>Welcome to my bolg</h1>
-        <p>It is my frist web page.</p>
-        <p>&copy;Dreaming Pepper</p>
+        <div id="Content">
+
+        </div>
     </div>
+    <div id="BottomPanel"></div>
 </body>
 </html>
